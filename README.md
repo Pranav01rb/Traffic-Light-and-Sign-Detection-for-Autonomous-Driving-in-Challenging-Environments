@@ -28,3 +28,9 @@ Simulates raindrops with adjustable drop length, width, and density.
 Adds haze effects with adjustable intensity and brightness.
 #### Color Shift: 
 Shifts hue, saturation, and brightness values randomly.
+
+## Dataset
+The project uses the LISA Traffic Sign Dataset, sourced from Roboflow. This dataset provides high-quality annotations of traffic signs under various conditions. It is further augmented with synthetic data to simulate rare and challenging scenarios such as:
+Motion blur caused by vehicle speed.
+Adverse weather conditions like fog, rain, and haze.
+Lighting variations using color shifts.
