@@ -1,0 +1,13 @@
+train: train/images
+val: val/images
+test: test/images
+
+nc: 60
+names: ['addedLane', 'curveLeft', 'curveRight', 'dip', 'doNotEnter', 'doNotPass', 'go', 'go forward', 'go forward traffic light', 'go left', 'go left traffic light', 'go traffic light', 'intersection', 'keepRight', 'laneEnds', 'merge', 'noLeftTurn', 'noRightTurn', 'pedestrianCrossing', 'rampSpeedAdvisory20', 'rampSpeedAdvisory35', 'rampSpeedAdvisory40', 'rampSpeedAdvisory45', 'rampSpeedAdvisory50', 'rampSpeedAdvisoryUrdbl', 'rightLaneMustTurn', 'roundabout', 'school', 'schoolSpeedLimit25', 'signalAhead', 'slow', 'speedLimit15', 'speedLimit25', 'speedLimit30', 'speedLimit35', 'speedLimit40', 'speedLimit45', 'speedLimit50', 'speedLimit55', 'speedLimit65', 'speedLimitUrdbl', 'stop', 'stop left', 'stop left traffic light', 'stop traffic light', 'stopAhead', 'thruMergeLeft', 'thruMergeRight', 'thruTrafficMergeLeft', 'truckSpeedLimit55', 'turnLeft', 'turnRight', 'warning', 'warning left', 'warning left traffic light', 'warning traffic light', 'yield', 'yieldAhead', 'zoneAhead25', 'zoneAhead45']
+
+roboflow:
+  workspace: lisatrafficlight
+  project: lisa-traffic
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/lisatrafficlight/lisa-traffic/dataset/1
